@@ -12,5 +12,5 @@ if st.button("Hitung Volume", type="primary"):
     time.sleep(0.01)
     loading.progress(i+1)
     
-  v = math.pi(r**2)*t
+  v = math.pi*(r**2)*t
   st.success(f"Volume Tabung adalah {v:.2f}")
